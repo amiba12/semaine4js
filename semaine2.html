@@ -1,0 +1,24 @@
+<!-- HTML (gallery.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="semaine2.css">
+    <script src="semaine2.js"></script>
+</head>
+<body>
+
+    <div id="image" tabindex="0" onfocus="onFocusFunction()" onblur="onBlurFunction()">
+        Passez la souris sur une image ci-dessous pour l'afficher ici.
+    </div>
+
+    <img class="preview" alt="Image 1" src="image1.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="1">
+    <img class="preview" alt="Image 2" src="image2.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="2">
+    <img class="preview" alt="Image 3" src="image3.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="3">
+    <img class="preview" alt="Image 4" src="image4.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="4">
+    <img class="preview" alt="Image 5" src="image5.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="5">
+    <img class="preview" alt="Image 6" src="image6.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="onFocusFunction(this)" onblur="onBlurFunction(this)" tabindex="6">
+
+</body>
+</html>
